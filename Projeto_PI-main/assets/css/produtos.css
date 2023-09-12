@@ -1,0 +1,67 @@
+/*produtos*/
+h1 {
+    font-family: 'Comfortaa';
+    background-color: rgb(0, 118, 253);
+    color: white;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    background-color: rgb(222, 232, 243);
+    padding: 15px;
+    font-family: 'Comfortaa';
+    text-indent: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #0d0e3f;
+}
+
+.posi{
+    padding-bottom: 82px;
+}
+
+#subNav {
+    font-family: 'Comfortaa';
+    background-color: black;
+    text-align: center;
+}
+
+#subNav ul {
+    display: inline-block;
+    margin: 10px;
+}
+
+#subNav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-body{
+    font-family: 'Exo2';
+}
+
+.card{
+    height: 100%;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover{
+    transform:scale(1.1);
+    transition-duration: 100ms;
+}
+
+.subdiv_prod:hover{
+    transform:scale(1.1);
+    transition-duration: 300ms;
+}
+
+#nav-item-login{
+    position: fixed;
+    right: 45px;
+}

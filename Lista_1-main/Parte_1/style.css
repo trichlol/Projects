@@ -1,0 +1,32 @@
+body {
+    background-color: gray;
+}
+
+#body {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin: 70px;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.quest {
+    font-size: 25px;
+}
+
+button {
+    margin: 5px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:active {
+    color: whitesmoke;
+    text-decoration: none;
+}

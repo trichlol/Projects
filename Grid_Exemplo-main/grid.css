@@ -1,0 +1,62 @@
+.container {
+    border: 1px solid black;
+    margin: auto;
+    max-width: 1200px;
+    
+    display: grid;
+    grid-template-areas:
+    "bk bk bk bk"
+    "0 0 0 0"
+    "gay bro bro bro"
+    "gay der o yell"
+    "gay 1 1 1"
+    "gay bl bl gee"
+    "pp pp pi pi";
+    grid-gap: 20px;
+}
+
+.grid {
+    height: 100px;
+    border-radius: 20px;
+}
+
+#black {
+    grid-area: bk;
+}
+
+#gray {
+    grid-area: gay;
+    height: 360px;
+}
+
+#brown {
+    grid-area: bro;
+}
+
+#red {
+    grid-area: der;
+}
+
+#orange {
+    grid-area: o;
+}
+
+#yellow {
+    grid-area: yell;
+}
+
+#green {
+    grid-area: gee;
+}
+
+#blue {
+    grid-area: bl;
+}
+
+#purple {
+    grid-area: pp;
+}
+
+#pink {
+    grid-area: pi;
+}

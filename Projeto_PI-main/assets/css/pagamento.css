@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    
+    font-family: sans-serif;
+}
+body{
+    margin: 0 100px ;
+}
+
+hr {
+    margin: 30px;
+}
+
+button {
+    margin: 30px;
+    margin-left: 300px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #3483fa;
+    color: white;
+}
+
+h3 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-left: 30px;
+}
+
+a {
+    margin: 30px;
+}
+
+h1 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.grid_mercado_pago {
+    display: flex;
+    margin-left: 45px;
+}
+
+
+
+.grid_mercado_pago p {
+    margin-top: 15px;
+}
+
+.grid_mercado_credito {
+    border: solid 1px gray;
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.grid_mercado_credito p {
+    display: block;
+    line-height: 1mm;
+    /* margin-top: 30px; */
+}
+
+.grid_mercado_credito img {
+    height: 50px;
+    border-right: 2px solid rgb(245, 238, 238);
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 60px;
+}
+
+.grid_mercado_credito_2{
+    border: none;
+    margin: 0px;
+    padding: 15px;
+}
+
+.grid_mercado_credito_2 button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.grid_cartao_credito {
+ 
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_cartao_credito_2 img {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_cartao_credito_2 p {
+    line-height: 1mm;
+}
+
+.grid_cartao_credito_3 {
+    display: inline;
+    margin-left: 30px;
+}
+
+.grid_cartao_credito_3 img {
+    display: inline;
+    margin-top: 15px;
+}
+
+.grid_cartao_debito {
+ 
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_cartao_debito_2 img {
+    margin-top: 10px;
+}
+
+.grid_cartao_debito_3 {
+    display: inline;
+    margin-left: 30px;
+}
+
+.grid_pix {
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_pix_2 img {
+    margin-top: 10px;
+}
+
+.grid_pix_2 p {
+    line-height: 8px;
+}
+
+.grid_pix_3  {
+    display: block;
+    margin-left: 25px;
+
+}
+
+.grid_pix_3  a{
+    display: block;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.grid_boleto_bancario {
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_boleto_bancario_2 img {
+    margin-top: 10px;
+}
+
+.grid_boleto_bancario_3  {
+    display: block;
+    margin-left: 30px;
+}
+
+.grid_conta_mercado_pago {
+    border-radius: 12px;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid_conta_mercado_pago_2 p {
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.grid_conta_mercado_pago_2 h3 {
+    line-height: 10px;
+}
+
+.grid_conta_mercado_pago img {
+    margin-top: 10px;
+}
+
+.grid_conta_mercado_pago_3 {
+    display: block;
+    margin-left: 30px;
+}
+
+
+
+
+

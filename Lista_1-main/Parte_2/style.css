@@ -1,0 +1,43 @@
+body {
+    background-color: gray;
+}
+
+#body {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin: 70px;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#calc {
+    background-color: rgba(128, 128, 128, 0.184);
+    border-radius: 15px;
+    padding: 50px;
+    text-align: center;
+}
+
+input {
+    width: 350px;
+}
+
+button {
+    margin: 5px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:active {
+    color: whitesmoke;
+    text-decoration: none;
+}
