@@ -1,0 +1,126 @@
+-- URI 2602
+
+SELECT
+    name
+FROM
+    customers
+WHERE UPPER(state) = 'RS';
+    
+-- URI 2603
+
+SELECT
+    name,
+    street
+FROM
+    customers
+WHERE LOWER(city) = 'porto alegre';
+
+-- URI 2604
+
+SELECT
+    id,
+    name
+FROM
+    products
+WHERE price > 100 or price < 10;
+
+-- URI 2605
+
+SELECT
+    p.name,
+    f.name
+FROM products p INNER JOIN providers f ON
+     p.id_providers	= f.id
+WHERE p.id_categories = 6;
+
+-- URI 2606
+
+SELECT
+    p.id,
+    p.name
+FROM products p INNER JOIN categories c ON
+     p.id_categories = c.id
+WHERE LOWER(c.name) LIKE 'super%';
+
+-- URI 2607
+
+SELECT
+    DISTINCT city 
+FROM
+    providers
+ORDER BY city ASC;
+
+-- URI 2608
+
+SELECT
+    MAX(price),
+    MIN(price)
+FROM products;
+
+-- URI 2609
+
+SELECT
+    c.name,
+    SUM(p.amount)
+FROM categories c INNER JOIN products p 
+     ON c.id = p.id_categories 
+GROUP BY c.name
+
+-- URI 2610
+
+SELECT
+    round(AVG(price), 2) as price
+FROM products
+
+-- URI 2611
+
+SELECT
+    m.id,
+    m.name
+FROM movies m INNER JOIN genres g ON
+     m.id_genres = g.id	
+WHERE LOWER(g.description) = 'action'
+
+-- URI 2613
+
+SELECT
+    m.id,
+    m.name
+FROM movies m INNER JOIN prices p ON
+     m.id_prices = p.id
+WHERE p.categorie = 'Promotion'
+
+-- URI 2614
+
+SELECT
+    c.name,
+    r.rentals_date
+FROM customers c INNER JOIN rentals r ON
+     c.id = r.id_customers
+WHERE r.rentals_date BETWEEN '2016-09-01' AND '2016-09-30'
+
+-- URI 2615
+
+SELECT DISTINCT
+    city
+FROM
+    customers
+
+-- URI 2616
+
+SELECT
+    id,
+    name
+FROM
+    customers
+WHERE id NOT IN (SELECT id_customers
+				   FROM locations)
+
+-- URI 2617
+
+SELECT
+    p.name,
+    f.name
+FROM providers f INNER JOIN products p ON 
+     f.id = p.id_providers
+WHERE f.name = 'Ajax SA'
